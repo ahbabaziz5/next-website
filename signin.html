@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+ 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-success bg-dark" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#"><img src="./new-next-black-logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#shop">Shop Now</a>
+              </li>
+             
+              
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form border-3 me-2 " type="search" placeholder="Search" aria-label="Search">
+              <i style="color:white; " class="fa-solid fa-lock mt-3 mb-2" id="log"></i>
+              <button class="btn btn-outline-white text-white" type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="logo mt-5" style="display:flex; justify-content: center;align-items: center; flex-direction: column;">
+    <h2>SignIn to your Account</h2><br><p>or <a href="./signup.html" style="text-decoration: none;">Create new one</a>
+    </p>
+    
+</div>
+    <div id="container "  style="display:flex; justify-content: center; height: 289px;">
+    <div class="form mt-5 " >
+        <label >Email </label><br>
+        <input type="email" name="" id="email" size="20px"><br>
+        <label >Password</label><br>
+        <input type="password" name="" id="password" size="20px"><br>
+        <label ></label><br>
+        <button id="btn1" class="btn btn-primary" style="display:flex; justify-content: center; width: 190px; ">Sign in</button>
+    </div>
+    
+</div>
+<footer>
+  
+  <!-- <div class="footer mt-5 bg-dark text-white " style="height: 100px; width: 100%; border: 1px solid black; ">
+
+    <div class="footer mt-5 ms-5" style="font-family:Arial, Helvetica, sans-serif">@All Rights Resevered 2023</div></div> -->
+
+
+
+<script type="module" src="./signin.js"></script>
+</body>
+</html>
